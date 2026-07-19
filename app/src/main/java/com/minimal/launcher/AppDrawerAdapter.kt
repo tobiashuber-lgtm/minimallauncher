@@ -35,4 +35,6 @@ class AppDrawerAdapter(
         items = newItems.toMutableList()
         notifyDataSetChanged()
     }
+
+    fun currentItems(): List<AppEntry> = items.toList()
 }

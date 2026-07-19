@@ -1,15 +1,25 @@
 # Minimal Launcher – Etappe 1
 
-Dies ist das Grundgerüst des minimalistischen Launchers:
+Der minimalistische Launcher mit einem echten, nahtlosen Wisch-Karussell:
+**Notizen ← Home → App-Drawer**, alle drei Seiten hängen an einem Band und
+lassen sich 1:1 mit dem Finger hin- und herziehen (kein hartes Umschalten
+mehr wie in der allerersten Version).
 
-- Home-Screen mit Uhrzeit, Datum (klickbar → öffnet Google Kalender), Akku-Balken
-  und einer Favoriten-Liste (aktuell fest hinterlegt, Auswahl folgt in Etappe 2)
-- Swipe nach links → öffnet den App-Drawer (alphabetische Liste + Suche)
-- Swipe nach rechts → Platzhalter-Meldung (echte Notizen-/App-Auswahl folgt später)
+- **Home**: Uhrzeit (klickbar → öffnet die Uhr-/Wecker-App), Datum (klickbar →
+  Google Kalender, mit Web-Fallback), Akku-Balken, Favoriten-Liste (aktuell
+  fest hinterlegt, freie Auswahl folgt in Etappe 2), Dock unten mit
+  Telefon/Kamera/Nachrichten/Mail (per System-Icons, echte Funktion)
+- **App-Drawer** (nach links wischen): Suche, alphabetische Liste, A-Z
+  Schnellsprung-Leiste am rechten Rand zum Antippen/Ziehen
+- **Notizen** (nach rechts wischen): einfaches, lokal gespeichertes Textfeld
+- Zurück-Taste des Handys bringt immer zum Home-Screen zurück
+- Die obere System-Statusleiste (Uhr/WLAN/Akku von Android selbst) ist
+  standardmäßig ausgeblendet für ein cleaneres Bild
 
-Noch NICHT enthalten (kommt in späteren Etappen): Einstellungen, Fonts/Farben/
-Größen anpassen, Nutzungszeit-Tracking, App verstecken/umbenennen, Zeitlimit-
-Dialog für Social-Media-Apps, Modi-System.
+Noch NICHT enthalten (kommt in späteren Etappen): Einstellungen-Screen,
+Fonts/Farben/Größen anpassen, Nutzungszeit-Tracking, App verstecken/
+umbenennen, Zeitlimit-Dialog für Social-Media-Apps, Modi-System, freie
+Zuordnung der Dock-Icons und der vertikalen Wischgesten (oben/unten).
 
 ## So bekommst du deine APK (ohne irgendetwas zu installieren)
 

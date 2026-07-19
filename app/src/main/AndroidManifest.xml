@@ -21,10 +21,5 @@
             </intent-filter>
         </activity>
 
-        <activity
-            android:name=".AppDrawerActivity"
-            android:exported="false"
-            android:theme="@style/Theme.MinimalLauncher" />
-
     </application>
 </manifest>
