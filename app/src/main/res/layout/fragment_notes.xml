@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    android:paddingTop="44dp"
+    android:paddingStart="22dp"
+    android:paddingEnd="22dp">
+
+    <TextView
+        android:id="@+id/tvNotesTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notepad"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:fontFamily="monospace"
+        android:paddingBottom="16dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingBottom="18dp">
+
+        <TextView
+            android:id="@+id/btnBold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp"
+            android:fontFamily="monospace"
+            android:paddingEnd="28dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp" />
+
+        <TextView
+            android:id="@+id/btnBullet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="·"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            android:fontFamily="monospace"
+            android:paddingEnd="28dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp" />
+
+        <TextView
+            android:id="@+id/btnCheck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="☑"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp"
+            android:fontFamily="monospace"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/btnDeleteNote"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_trash"
+            android:contentDescription="Delete" />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvNoteLines"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>
